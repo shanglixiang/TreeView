@@ -1,0 +1,1 @@
+browser-sync start --server ./ --port 16945 --files ./**/* --no-notify
