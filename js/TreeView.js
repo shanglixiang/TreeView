@@ -57,11 +57,8 @@ class TreeView {
     const {canvas} = d
 
     window.onresize = () => {
-      const dw = window.innerWidth
-      const dh = window.innerHeight
-
-      canvas.width = dw
-      canvas.height = dh
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
 
       me.render()
     }
